@@ -1,0 +1,11 @@
+name: ode
+channels:
+  - anaconda
+  - defaults
+  - conda-forge
+dependencies:
+  - numpy=1.19.1=py36hbc911f0_0
+  - numpy-base=1.19.1=py36hfa32c7d_0
+  - numpydoc=1.1.0=py_0
+  - scipy=1.5.2=py36h0b6359f_0
+  prefix: /home/ajayraj/anaconda3/envs/ode
