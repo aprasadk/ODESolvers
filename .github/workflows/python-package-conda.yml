@@ -31,6 +31,7 @@ jobs:
         $CONDA/bin/flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: Test with unittest
       run: |
+        # Testing with unittest
         $CONDA/bin/conda install -c anaconda unittest2
         $CONDA/bin/conda activate
         python -m unittest -v tests
